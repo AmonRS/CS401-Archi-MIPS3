@@ -2,13 +2,174 @@
 # Vivado v2018.2.1 (64-bit)
 # SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
 # IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
-# Start of session at: Fri Mar  1 09:19:21 2019
-# Process ID: 7036
+# Start of session at: Fri Mar  1 18:22:40 2019
+# Process ID: 8896
 # Current directory: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5380 Z:\CS-401-1-CompArch\MIPS3\mips_fpga_nexsys4_ddr\mips.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3416 Z:\CS-401-1-CompArch\MIPS3\mips_fpga_nexsys4_ddr\mips.xpr
 # Log file: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/vivado.log
 # Journal file: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.xpr
-synth_design -rtl -name rtl_1
+launch_simulation
+source mips_testbench.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+restart
+run 5 ns
+run 5 ns
+run 5 ns
+run 5 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+restart
+run 40 ns
+run 40 ns
+run 40 ns
+run 40 ns
+restart
+run 40 ns
+run 40 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+restart
+run 20 ns
+run 20 ns
+restart
+run 20 ns
+run 20 ns
+run 20 ns
+save_wave_config {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg}
+add_files -fileset sim_1 -norecurse Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
+set_property xsim.view Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
+source mips_testbench.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
+source mips_testbench.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
+source mips_testbench.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
