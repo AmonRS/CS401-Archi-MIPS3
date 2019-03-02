@@ -58,7 +58,7 @@ architecture computer_top of computer_top is
   
   begin
       -- wire up slow clock 
-      clk <= clk_div(27); -- use a lower bit for a faster clock
+      clk <= clk_div(26); -- use a lower bit for a faster clock
       -- clk <= clk_div(0);  -- use this in simulation (fast clk)
            
 	  -- wire up the processor and memories

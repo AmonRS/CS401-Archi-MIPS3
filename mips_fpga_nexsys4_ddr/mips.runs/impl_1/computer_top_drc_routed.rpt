@@ -1,8 +1,8 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Nov 13 18:03:44 2017
-| Host         : STF-SCI-JONES running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
+| Date         : Fri Mar  1 21:41:35 2019
+| Host         : LAB-SCI-214-12 running 64-bit major release  (build 9200)
 | Command      : report_drc -file computer_top_drc_routed.rpt -pb computer_top_drc_routed.pb -rpx computer_top_drc_routed.rpx
 | Design       : computer_top
 | Device       : xc7a100tcsg324-1

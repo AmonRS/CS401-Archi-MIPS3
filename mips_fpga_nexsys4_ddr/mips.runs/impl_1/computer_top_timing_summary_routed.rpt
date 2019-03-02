@@ -1,13 +1,13 @@
-Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Nov 13 18:03:48 2017
-| Host         : STF-SCI-JONES running 64-bit major release  (build 9200)
-| Command      : report_timing_summary -warn_on_violation -max_paths 10 -file computer_top_timing_summary_routed.rpt -rpx computer_top_timing_summary_routed.rpx
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
+| Date         : Fri Mar  1 21:41:37 2019
+| Host         : LAB-SCI-214-12 running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -file computer_top_timing_summary_routed.rpt -pb computer_top_timing_summary_routed.pb -rpx computer_top_timing_summary_routed.rpx -warn_on_violation
 | Design       : computer_top
 | Device       : 7a100t-csg324
-| Speed File   : -1  PRODUCTION 1.17 2017-05-11
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Timing Summary Report
 
@@ -52,9 +52,9 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There are 28 register/latch pins with no clock driven by root clock pin: CLKM (HIGH)
+ There are 27 register/latch pins with no clock driven by root clock pin: CLKM (HIGH)
 
- There are 135 register/latch pins with no clock driven by root clock pin: display/clkdiv_reg[27]/Q (HIGH)
+ There are 135 register/latch pins with no clock driven by root clock pin: display/clkdiv_reg[26]/Q (HIGH)
 
 
 2. checking constant_clock
@@ -69,7 +69,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 746 pins that are not constrained for maximum delay. (HIGH)
+ There are 745 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
