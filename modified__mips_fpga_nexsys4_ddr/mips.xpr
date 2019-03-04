@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.xpr">
+<Project Version="7" Minor="38" Path="Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="bfc6d33675f34e59a51d26a1983c03b4"/>
@@ -24,7 +24,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPOutputRepo" Val="Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.cache/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
@@ -204,6 +204,12 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/new/memfile_2.dat">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/branch_mux.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>

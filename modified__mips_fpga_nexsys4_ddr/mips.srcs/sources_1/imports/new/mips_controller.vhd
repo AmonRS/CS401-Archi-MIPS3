@@ -26,14 +26,22 @@ architecture struct of controller is
          aluop:      in  STD_LOGIC_VECTOR(1 downto 0);
          alucontrol: out STD_LOGIC_VECTOR(2 downto 0));
   end component;
+  component branch_mux
+    port(ctrl: in STD_LOGIC;
+          zero: in STD_LOGIC;
+          y: out STD_LOGIC);
+  end component;
+  
   signal aluop: STD_LOGIC_VECTOR(1 downto 0);
   signal branch: STD_LOGIC;
+  signal br_y: STD_LOGIC;
 begin
   md: maindec port map( op => op, memtoreg => memtoreg, memwrite => memwrite, branch => branch,
                        alusrc => alusrc, regdst => regdst, regwrite => regwrite, jump => jump, aluop => aluop);
   ad: aludec port map(funct => funct, aluop => aluop, alucontrol => alucontrol);
+  br: branch_mux port map(ctrl => op(1), zero=>zero, y=>br_y );
 
-  pcsrc <= branch and zero;
+  pcsrc <= branch and br_y;
 end;
 
 

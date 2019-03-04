@@ -2,678 +2,345 @@
 # Vivado v2018.2.1 (64-bit)
 # SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
 # IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
-# Start of session at: Fri Mar  1 18:22:40 2019
-# Process ID: 8896
-# Current directory: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3416 Z:\CS-401-1-CompArch\MIPS3\mips_fpga_nexsys4_ddr\mips.xpr
-# Log file: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/vivado.log
-# Journal file: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr\vivado.jou
+# Start of session at: Mon Mar  4 09:58:19 2019
+# Process ID: 496
+# Current directory: Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7948 Z:\CS-401-1-CompArch\MIPS3\modified__mips_fpga_nexsys4_ddr\mips.xpr
+# Log file: Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/vivado.log
+# Journal file: Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.xpr
+open_project Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.xpr
+INFO: [Project 1-313] Project file moved from 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 916.426 ; gain = 129.398
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'mips_testbench' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
-INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj mips_testbench_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity imem
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto bfc6d33675f34e59a51d26a1983c03b4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling package ieee.numeric_std
-Compiling package ieee.math_real
-Compiling architecture behave of entity xil_defaultlib.maindec [maindec_default]
-Compiling architecture behave of entity xil_defaultlib.aludec [aludec_default]
-Compiling architecture struct of entity xil_defaultlib.controller [controller_default]
-Compiling architecture asynchronous of entity xil_defaultlib.flopr [\flopr(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.adder [\adder(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.sl2 [\sl2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.regfile [\regfile(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=5)\]
-Compiling architecture behave of entity xil_defaultlib.signext [\signext(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.alu [\alu(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.datapath [\datapath(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.mips [\mips(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.imem [\imem(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.dmem [\dmem(width=32)\]
-Compiling architecture mips_top of entity xil_defaultlib.mips_top [mips_top_default]
-Compiling architecture mips_testbench of entity xil_defaultlib.mips_testbench
-Built simulation snapshot mips_testbench_behav
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 944.504 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.2
-Time resolution is 1 ps
-source mips_testbench.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_testbench_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 952.102 ; gain = 7.598
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 5 ns
-run 5 ns
-run 5 ns
-run 5 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 40 ns
-run 40 ns
-run 40 ns
-run 40 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 40 ns
-run 40 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-run 20 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 20 ns
-run 20 ns
-run 20 ns
-save_wave_config {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg}
-add_files -fileset sim_1 -norecurse Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
-set_property xsim.view Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg [get_filesets sim_1]
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'mips_testbench' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
-INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj mips_testbench_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.srcs/sim_1/imports/Desktop/mips_testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mips_testbench
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto bfc6d33675f34e59a51d26a1983c03b4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling package ieee.numeric_std
-Compiling package ieee.math_real
-Compiling architecture behave of entity xil_defaultlib.maindec [maindec_default]
-Compiling architecture behave of entity xil_defaultlib.aludec [aludec_default]
-Compiling architecture struct of entity xil_defaultlib.controller [controller_default]
-Compiling architecture asynchronous of entity xil_defaultlib.flopr [\flopr(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.adder [\adder(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.sl2 [\sl2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.regfile [\regfile(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=5)\]
-Compiling architecture behave of entity xil_defaultlib.signext [\signext(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.alu [\alu(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.datapath [\datapath(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.mips [\mips(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.imem [\imem(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.dmem [\dmem(width=32)\]
-Compiling architecture mips_top of entity xil_defaultlib.mips_top [mips_top_default]
-Compiling architecture mips_testbench of entity xil_defaultlib.mips_testbench
-Built simulation snapshot mips_testbench_behav
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.074 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -view {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.2
-Time resolution is 1 ps
-open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
-source mips_testbench.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_testbench_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1005.074 ; gain = 0.000
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'mips_testbench' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
-INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj mips_testbench_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.srcs/sim_1/imports/Desktop/mips_testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mips_testbench
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto bfc6d33675f34e59a51d26a1983c03b4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling package ieee.numeric_std
-Compiling package ieee.math_real
-Compiling architecture behave of entity xil_defaultlib.maindec [maindec_default]
-Compiling architecture behave of entity xil_defaultlib.aludec [aludec_default]
-Compiling architecture struct of entity xil_defaultlib.controller [controller_default]
-Compiling architecture asynchronous of entity xil_defaultlib.flopr [\flopr(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.adder [\adder(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.sl2 [\sl2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.regfile [\regfile(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=5)\]
-Compiling architecture behave of entity xil_defaultlib.signext [\signext(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.alu [\alu(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.datapath [\datapath(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.mips [\mips(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.imem [\imem(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.dmem [\dmem(width=32)\]
-Compiling architecture mips_top of entity xil_defaultlib.mips_top [mips_top_default]
-Compiling architecture mips_testbench of entity xil_defaultlib.mips_testbench
-Built simulation snapshot mips_testbench_behav
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.516 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -view {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.2
-Time resolution is 1 ps
-open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
-source mips_testbench.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_testbench_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1006.074 ; gain = 0.559
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'mips_testbench' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
-INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj mips_testbench_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.srcs/sim_1/imports/Desktop/mips_testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity mips_testbench
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto bfc6d33675f34e59a51d26a1983c03b4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.std_logic_arith
-Compiling package ieee.std_logic_unsigned
-Compiling package ieee.numeric_std
-Compiling package ieee.math_real
-Compiling architecture behave of entity xil_defaultlib.maindec [maindec_default]
-Compiling architecture behave of entity xil_defaultlib.aludec [aludec_default]
-Compiling architecture struct of entity xil_defaultlib.controller [controller_default]
-Compiling architecture asynchronous of entity xil_defaultlib.flopr [\flopr(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.adder [\adder(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.sl2 [\sl2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.regfile [\regfile(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.mux2 [\mux2(width=5)\]
-Compiling architecture behave of entity xil_defaultlib.signext [\signext(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.alu [\alu(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.datapath [\datapath(width=32)\]
-Compiling architecture struct of entity xil_defaultlib.mips [\mips(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.imem [\imem(width=32)\]
-Compiling architecture behave of entity xil_defaultlib.dmem [\dmem(width=32)\]
-Compiling architecture mips_top of entity xil_defaultlib.mips_top [mips_top_default]
-Compiling architecture mips_testbench of entity xil_defaultlib.mips_testbench
-Built simulation snapshot mips_testbench_behav
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1008.172 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -view {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.2
-Time resolution is 1 ps
-open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
-source mips_testbench.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_testbench_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1009.777 ; gain = 1.605
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/synth_1
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 812.004 ; gain = 121.145
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: computer_top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 905.641 ; gain = 81.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'computer_top' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:24]
+INFO: [Synth 8-3491] module 'mips_top' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:17' bound to instance 'mips1' of component 'mips_top' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'mips_top' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:29]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mips' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:14' bound to instance 'mips1' of component 'mips' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'mips' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:29]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'controller' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:5' bound to instance 'cont' of component 'controller' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'controller' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:15]
+INFO: [Synth 8-3491] module 'maindec' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd:5' bound to instance 'md' of component 'maindec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'maindec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'maindec' (1#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd:14]
+INFO: [Synth 8-3491] module 'aludec' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd:4' bound to instance 'ad' of component 'aludec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'aludec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'aludec' (2#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'controller' (3#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:15]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'datapath' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:6' bound to instance 'dp' of component 'datapath' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'datapath' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:20]
+	Parameter width bound to: 32 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'flopr' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd:5' bound to instance 'pcreg' of component 'flopr' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'flopr' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd:12]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'flopr' (4#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd:12]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'adder' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:7' bound to instance 'pcadd1' of component 'adder' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'adder' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'adder' (5#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'sl2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd:7' bound to instance 'immsh' of component 'sl2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'sl2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sl2' (6#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'adder' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:7' bound to instance 'pcadd2' of component 'adder' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:91]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'pcbrmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2' (7#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'pcmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:93]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'regfile' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd:11' bound to instance 'rf' of component 'regfile' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'regfile' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd:21]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'regfile' (8#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd:21]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'wrmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized2' (8#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'resmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:107]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'signext' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd:5' bound to instance 'se' of component 'signext' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'signext' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'signext' (9#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'srcbmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:114]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'alu' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd:8' bound to instance 'mainalu' of component 'alu' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'alu' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd:16]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'alu' (10#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (11#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'mips' (12#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:29]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'imem' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd:10' bound to instance 'imem1' of component 'imem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'imem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd:16]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'imem' (13#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd:16]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'dmem' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd:11' bound to instance 'dmem1' of component 'dmem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'dmem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd:18]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dmem' (14#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'mips_top' (15#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:29]
+INFO: [Synth 8-3491] module 'display_hex' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:5' bound to instance 'display' of component 'display_hex' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'display_hex' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:17]
+WARNING: [Synth 8-614] signal 'x' is read in the process but is not in the sensitivity list [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'display_hex' (16#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'computer_top' (17#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:24]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[9]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[8]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[0]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[31]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[31]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[29]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[28]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[27]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 950.230 ; gain = 125.891
+---------------------------------------------------------------------------------
 
-launch_runs synth_1 -jobs 8
-[Fri Mar  1 20:18:36 2019] Launched synth_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/synth_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Fri Mar  1 20:53:40 2019] Launched impl_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
-open_hw
-connect_hw_server
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
-INFO: [Labtools 27-2222] Launching hw_server...
-INFO: [Labtools 27-2221] Launch Output:
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 950.230 ; gain = 125.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 950.230 ; gain = 125.891
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
 
-****** Xilinx hw_server v2018.2.1
-  **** Build date : Jul 26 2018-19:38:10
-    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
 
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
 
-open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BEA4A
-set_property PROGRAM.FILE {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/computer_top.bit} [get_hw_devices xc7a100t_0]
-current_hw_device [get_hw_devices xc7a100t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property PROGRAM.FILE {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/computer_top.bit} [get_hw_devices xc7a100t_0]
-program_hw_devices [get_hw_devices xc7a100t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/synth_1
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1321.176 ; gain = 496.836
+62 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1321.176 ; gain = 496.855
+close [ open Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/new/branch_mux.vhd w ]
+add_files Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/new/branch_mux.vhd
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1359.883 ; gain = 6.664
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'computer_top' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:24]
+INFO: [Synth 8-3491] module 'mips_top' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:17' bound to instance 'mips1' of component 'mips_top' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'mips_top' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:29]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mips' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:14' bound to instance 'mips1' of component 'mips' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'mips' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:29]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'controller' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:5' bound to instance 'cont' of component 'controller' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'controller' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:15]
+INFO: [Synth 8-3491] module 'maindec' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd:5' bound to instance 'md' of component 'maindec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'maindec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'maindec' (1#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd:14]
+INFO: [Synth 8-3491] module 'aludec' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd:4' bound to instance 'ad' of component 'aludec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'aludec' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'aludec' (2#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd:10]
+INFO: [Synth 8-3491] module 'branch_mux' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/new/branch_mux.vhd:13' bound to instance 'br' of component 'branch_mux' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'branch_mux' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/new/branch_mux.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'branch_mux' (3#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/new/branch_mux.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'controller' (4#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd:15]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'datapath' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:6' bound to instance 'dp' of component 'datapath' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'datapath' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:20]
+	Parameter width bound to: 32 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'flopr' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd:5' bound to instance 'pcreg' of component 'flopr' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'flopr' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd:12]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'flopr' (5#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd:12]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'adder' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:7' bound to instance 'pcadd1' of component 'adder' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'adder' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'adder' (6#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'sl2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd:7' bound to instance 'immsh' of component 'sl2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'sl2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sl2' (7#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd:13]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'adder' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd:7' bound to instance 'pcadd2' of component 'adder' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:91]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'pcbrmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2' (8#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'pcmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:93]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'regfile' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd:11' bound to instance 'rf' of component 'regfile' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'regfile' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd:21]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'regfile' (9#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd:21]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'wrmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized2' (9#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'resmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:107]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'signext' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd:5' bound to instance 'se' of component 'signext' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'signext' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'signext' (10#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd:11]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'mux2' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd:4' bound to instance 'srcbmux' of component 'mux2' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:114]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'alu' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd:8' bound to instance 'mainalu' of component 'alu' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'alu' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd:16]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'alu' (11#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (12#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'mips' (13#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd:29]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'imem' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd:10' bound to instance 'imem1' of component 'imem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'imem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd:16]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'imem' (14#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd:16]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'dmem' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd:11' bound to instance 'dmem1' of component 'dmem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'dmem' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd:18]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dmem' (15#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'mips_top' (16#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd:29]
+INFO: [Synth 8-3491] module 'display_hex' declared at 'Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:5' bound to instance 'display' of component 'display_hex' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'display_hex' [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:17]
+WARNING: [Synth 8-614] signal 'x' is read in the process but is not in the sensitivity list [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'display_hex' (17#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'computer_top' (18#1) [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd:24]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[9]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[8]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[0]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[31]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[31]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[29]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[28]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[27]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1403.762 ; gain = 50.543
+---------------------------------------------------------------------------------
 
-launch_runs synth_1 -jobs 8
-[Fri Mar  1 21:12:03 2019] Launched synth_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/synth_1/runme.log
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'mips_testbench' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
-INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj mips_testbench_vhdl.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto bfc6d33675f34e59a51d26a1983c03b4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1693.043 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -view {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.2
-Time resolution is 1 ps
-open_wave_config Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/simulation_waveform_order.wcfg
-source mips_testbench.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_testbench_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1693.043 ; gain = 0.000
-restart
-INFO: [Simtcl 6-17] Simulation restarted
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292A4BEA4A
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BEA4A
-INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292A4BEA4A
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A4BEA4A
-INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-launch_runs impl_1 -jobs 8
-[Fri Mar  1 21:31:08 2019] Launched impl_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Fri Mar  1 21:32:48 2019] Launched impl_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
-set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property PROGRAM.FILE {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/computer_top.bit} [get_hw_devices xc7a100t_0]
-program_hw_devices [get_hw_devices xc7a100t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-reset_run synth_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/synth_1
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1403.762 ; gain = 50.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1403.762 ; gain = 50.543
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
 
-launch_runs synth_1 -jobs 8
-[Fri Mar  1 21:39:25 2019] Launched synth_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 8
-[Fri Mar  1 21:40:14 2019] Launched impl_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-[Fri Mar  1 21:41:45 2019] Launched impl_1...
-Run output will be captured here: Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
-set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property PROGRAM.FILE {Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/computer_top.bit} [get_hw_devices xc7a100t_0]
-program_hw_devices [get_hw_devices xc7a100t_0]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
-INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1403.762 ; gain = 50.543
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Mar  1 21:54:20 2019...
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  4 10:17:24 2019...
