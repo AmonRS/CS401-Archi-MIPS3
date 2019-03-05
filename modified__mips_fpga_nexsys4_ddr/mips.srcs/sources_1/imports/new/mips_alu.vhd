@@ -14,7 +14,7 @@ entity alu is
 end;
 
 architecture behave of alu is
-  signal b2, sum, slt: STD_LOGIC_VECTOR((width-1) downto 0);
+  signal b2, sum, slt, slt_or_xor: STD_LOGIC_VECTOR((width-1) downto 0);
   signal const_zero : STD_LOGIC_VECTOR((width-1) downto 0) := (others => '0');
 begin
 
@@ -27,12 +27,17 @@ begin
   -- slt should be 1 if most significant bit of sum is 1
   slt <= ( const_zero(width-1 downto 1) & '1') when sum((width-1)) = '1' else (others =>'0');
   
+  -- CHOOSE BETWEEN SLT OR XOR FUNCTION FOR SIGNAL
+  with alucontrol(2 downto 2) select slt_or_xor <=
+    slt when "1",
+    a xor b when "0";
+  
   -- determine alu operation from alucontrol bits 0 and 1
   with alucontrol(1 downto 0) select result <=
     a and b when "00",
     a or b  when "01",
     sum     when "10",
-    slt     when others;
+    slt_or_xor     when others;
 	
   -- set the zero flag if result is 0
   zero <= '1' when result = const_zero else '0';

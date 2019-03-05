@@ -39,6 +39,7 @@ begin
   md: maindec port map( op => op, memtoreg => memtoreg, memwrite => memwrite, branch => branch,
                        alusrc => alusrc, regdst => regdst, regwrite => regwrite, jump => jump, aluop => aluop);
   ad: aludec port map(funct => funct, aluop => aluop, alucontrol => alucontrol);
+  
   br: branch_mux port map(ctrl => op(1), zero=>zero, y=>br_y );
 
   pcsrc <= branch and br_y;

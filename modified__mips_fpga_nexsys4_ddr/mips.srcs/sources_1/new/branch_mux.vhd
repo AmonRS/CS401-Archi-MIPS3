@@ -21,5 +21,13 @@ architecture Behavioral of branch_mux is
 
 begin
 
+    process
+    begin
+        if (ctrl='1') then
+            y <= zero;
+        else
+            y <= not zero;
+        end if;
+    end process;
 
 end Behavioral;
