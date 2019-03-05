@@ -30,7 +30,7 @@ begin
   -- CHOOSE BETWEEN SLT OR XOR FUNCTION FOR SIGNAL
   with alucontrol(2 downto 2) select slt_or_xor <=
     slt when "1",
-    a xor b when "0";
+    a xor b when others;
   
   -- determine alu operation from alucontrol bits 0 and 1
   with alucontrol(1 downto 0) select result <=
