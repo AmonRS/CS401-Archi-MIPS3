@@ -65,9 +65,8 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param xicom.use_bs_reader 1
   open_checkpoint computer_top_routed.dcp
-  set_property webtalk.parent_dir Z:/CS-401-1-CompArch/MIPS3/mips_fpga_nexsys4_ddr/mips.cache/wt [current_project]
+  set_property webtalk.parent_dir Z:/CS-401-1-CompArch/MIPS3/modified__mips_fpga_nexsys4_ddr/mips.cache/wt [current_project]
   catch { write_mem_info -force computer_top.mmi }
   write_bitstream -force computer_top.bit 
   catch {write_debug_probes -quiet -force computer_top}

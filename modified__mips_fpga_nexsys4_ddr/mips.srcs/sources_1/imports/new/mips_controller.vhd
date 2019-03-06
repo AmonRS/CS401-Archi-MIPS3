@@ -40,7 +40,7 @@ begin
                        alusrc => alusrc, regdst => regdst, regwrite => regwrite, jump => jump, aluop => aluop);
   ad: aludec port map(funct => funct, aluop => aluop, alucontrol => alucontrol);
   
-  br: branch_mux port map(ctrl => op(1), zero=>zero, y=>br_y );
+  br: branch_mux port map(ctrl => op(0), zero=>zero, y=>br_y );
 
   pcsrc <= branch and br_y;
 end;
